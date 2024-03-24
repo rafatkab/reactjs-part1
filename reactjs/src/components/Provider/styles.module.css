@@ -8,11 +8,21 @@
 }
 
 #google {
-  background-color: white;
+  background-color: #f2f2f2;
   color: black;
 }
 
+#google:hover {
+  cursor: pointer;
+  opacity: 90%;
+}
+
 #facebook {
-  background-color: #3c5899;
+  background-color: #3a559f;
   color: white;
+}
+
+#facebook:hover {
+  cursor: pointer;
+  opacity: 90%;
 }

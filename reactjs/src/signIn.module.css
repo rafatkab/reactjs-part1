@@ -5,10 +5,11 @@
   margin-top: 150px;
   background-color: white;
   border-radius: 15px;
-  font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 .heading {
   padding: 35px;
-  color: gray;
+  margin: 0px;
+  color: #515153;
 }

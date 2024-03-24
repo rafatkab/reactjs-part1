@@ -8,12 +8,12 @@ export default function Provider() {
     <div className={styles.container}>
       <a id={styles.facebookLink} href="https://www.facebook.com">
         <button id={styles.facebook} className={styles.provider}>
-          Facebook
+          <img src={facebook} height={28} />
         </button>
       </a>
       <a id={styles.googleLink} href="https://www.google.com">
         <button id={styles.google} className={styles.provider}>
-          Google
+          <img src={google} height={28} />
         </button>
       </a>
     </div>
