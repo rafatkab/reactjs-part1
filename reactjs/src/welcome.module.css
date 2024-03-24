@@ -1,0 +1,25 @@
+.container {
+  text-align: center;
+  width: 600px;
+  margin: auto;
+  margin-top: 150px;
+  background-color: white;
+  border-radius: 15px;
+  font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+}
+
+table,
+th,
+td {
+  border: 1px solid green;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+td {
+  text-align: left;
+}
+
+h1 {
+  padding: 20px;
+}

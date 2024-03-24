@@ -1,0 +1,52 @@
+form {
+  width: 300px;
+  margin: auto;
+}
+
+form label input {
+  height: 45px;
+  width: 300px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border-style: solid;
+  background-color: #f7f7f7;
+}
+
+form label div {
+  text-align: left;
+}
+
+form button {
+  width: 310px;
+  height: 45px;
+  background-color: #343434;
+  border-radius: 10px;
+  border-style: none;
+  color: white;
+  text-align: center;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.signUp {
+  color: #c3c3c3;
+  padding: 30px;
+}
+
+.signUpLink {
+  color: #c3c3c3;
+  text-decoration: underline;
+  font-size: 16px;
+}
+
+span {
+  color: #c3c3c3;
+  text-decoration: underline;
+  font-size: 14px;
+}
+
+.error {
+  color: red;
+  margin: 10px;
+}

@@ -1,0 +1,14 @@
+.container {
+  text-align: center;
+  width: 500px;
+  margin: auto;
+  margin-top: 150px;
+  background-color: white;
+  border-radius: 15px;
+  font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+}
+
+.heading {
+  padding: 35px;
+  color: gray;
+}
