@@ -1,8 +1,7 @@
 import React from "react";
 import styles from "./signIn.module.css";
-import "./index.css";
-import Form from "./components/Form/Form";
-import Provider from "./components/Provider/Provider";
+import Form from "../../components/Forms/SignInForm";
+import Provider from "../../components/Provider/Provider";
 
 export default function SignIn() {
   return (

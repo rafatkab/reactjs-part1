@@ -41,14 +41,23 @@ export default function Form() {
         </label>
         <label>
           <div>
-            Password <span>Forgot?</span>
+            Password{" "}
+            <Link to="/forgot-password">
+              <span>Forgot?</span>
+            </Link>
           </div>
-          <input type="text" onChange={(e) => setPassword(e.target.value)} />
+          <input
+            type="password"
+            onChange={(e) => setPassword(e.target.value)}
+          />
         </label>
         <button type="submit">Sign In</button>
       </form>
       <div className={styles.signUp}>
-        Not a member? <span className={styles.signUpLink}>Sign up now</span>
+        Not a member?{" "}
+        <Link to="/sign-up">
+          <span className={styles.signUpLink}>Sign up now</span>
+        </Link>
       </div>
     </div>
   );

@@ -1,0 +1,15 @@
+.container {
+  text-align: center;
+  width: 500px;
+  margin: auto;
+  margin-top: 150px;
+  background-color: white;
+  border-radius: 15px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.heading {
+  padding: 35px;
+  margin: 0px;
+  color: #515153;
+}
